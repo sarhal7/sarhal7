@@ -6,4 +6,6 @@ SALAM! 👋
 
 🐍 I like Cyber secutrity  
 
-🦀 And Football⚽
+🦀 And Football⚽  
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sarhal7&show_icons=true)

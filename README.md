@@ -22,6 +22,26 @@
 - Outside the terminal: **football**.
 - Currently growing my skills—always learning, always building.
 
+## Cybersecurity journey
+
+### Highlights
+
+- **IGNITE Hackathon:** Qualified as a team.
+- **Nexploit BlackHat CTF:** Achieved **39th place** as a team.
+- **CTFs:** Participated in various Capture The Flag competitions.
+- **UET Taxila:** Proud to represent the **first team from our university** in this journey.
+
+### Hands-on toolkit
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux" />
+  <img src="https://img.shields.io/badge/Nmap-2A6E9E?style=for-the-badge&logoColor=white" alt="Nmap" />
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
+</p>
+
+> I use these tools for learning and authorized security testing.
+
 ## Languages & web technologies
 
 <p align="center">

@@ -33,36 +33,17 @@
 
 ## Cybersecurity journey
 
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://img.shields.io/badge/IGNITE_HACKATHON-TEAM_QUALIFIER-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="IGNITE Hackathon team qualifier" /><br/>
-      Qualified as a team
-    </td>
-    <td width="50%" align="center">
-      <img src="https://img.shields.io/badge/NEXPLOIT_BLACKHAT_CTF-39TH_PLACE-0ea5e9?style=for-the-badge&logo=hackthebox&logoColor=white" alt="39th place in Nexploit BlackHat CTF" /><br/>
-      Team result
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://img.shields.io/badge/CTF_PLAYER-MULTIPLE_EVENTS-10b981?style=for-the-badge&logo=ctftime&logoColor=white" alt="Participated in various CTF events" /><br/>
-      Competing, learning, improving
-    </td>
-    <td width="50%" align="center">
-      <img src="https://img.shields.io/badge/UET_TAXILA-FIRST_TEAM-f59e0b?style=for-the-badge&logo=google-scholar&logoColor=white" alt="First team from UET Taxila" /><br/>
-      Proud to represent our university
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://img.shields.io/badge/IGNITE_HACKATHON-TEAM_QUALIFIER-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="IGNITE Hackathon team qualifier" />
+  <img src="https://img.shields.io/badge/NEXPLOIT_BLACKHAT_CTF-39TH_PLACE-0ea5e9?style=for-the-badge&logo=hackthebox&logoColor=white" alt="39th place in Nexploit BlackHat CTF" />
+  <img src="https://img.shields.io/badge/CTF_PLAYER-MULTIPLE_EVENTS-10b981?style=for-the-badge&logo=ctftime&logoColor=white" alt="Participated in various CTF events" />
+  <img src="https://img.shields.io/badge/UET_TAXILA-FIRST_TEAM-f59e0b?style=for-the-badge&logo=google-scholar&logoColor=white" alt="First team from UET Taxila" />
+</p>
 
 ### Hands-on toolkit
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux" />
-  <img src="https://img.shields.io/badge/Nmap-2A6E9E?style=for-the-badge&logoColor=white" alt="Nmap" />
-  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" />
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
+  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/main/security-tools.svg" alt="Custom security tool badges for Kali Linux, Nmap, Burp Suite, Wireshark, Metasploit, and Ghidra" width="100%" />
 </p>
 
 > I use these tools for learning and authorized security testing.
@@ -83,11 +64,9 @@
 
 ## A few things I've built
 
-| Project | What it is |
-|---|---|
-| [gping](https://github.com/sarhal7/gping) | A command-line ping experiment with a live graph. |
-| [afnan-nex](https://github.com/sarhal7/afnan-nex) | A collection of experiments, learnings, and creations. |
-| [my-first-webpage](https://github.com/sarhal7/my-first-webpage) | One of my early steps into building for the web. |
+- **[gping](https://github.com/sarhal7/gping)** — A command-line ping experiment with a live graph.
+- **[afnan-nex](https://github.com/sarhal7/afnan-nex)** — A collection of experiments, learnings, and creations.
+- **[my-first-webpage](https://github.com/sarhal7/my-first-webpage)** — One of my early steps into building for the web.
 
 ## GitHub at a glance
 

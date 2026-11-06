@@ -43,7 +43,12 @@
 ### Hands-on toolkit
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/main/security-tools.svg" alt="Custom security tool badges for Kali Linux, Nmap, Burp Suite, Wireshark, Metasploit, and Ghidra" width="100%" />
+  <img src="https://cdn.simpleicons.org/kalilinux/557C94" alt="Kali Linux logo" width="48" height="48" />&nbsp;
+  <img src="https://nmap.org/images/nmap-logo-64px.svg" alt="Nmap official logo" width="48" height="48" />&nbsp;
+  <img src="https://cdn.simpleicons.org/burpsuite/FF6633" alt="Burp Suite logo" width="48" height="48" />&nbsp;
+  <img src="https://cdn.simpleicons.org/wireshark/1679A7" alt="Wireshark logo" width="48" height="48" />&nbsp;
+  <img src="https://cdn.simpleicons.org/metasploit/2596CD" alt="Metasploit logo" width="48" height="48" />&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ghidra/ghidra-original.svg" alt="Ghidra logo" width="48" height="48" />
 </p>
 
 > I use these tools for learning and authorized security testing.

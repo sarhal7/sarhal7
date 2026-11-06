@@ -42,6 +42,14 @@
 
 > I use these tools for learning and authorized security testing.
 
+### Advanced topics I'm exploring
+
+**Web exploitation and reverse engineering** are areas I'm actively learning through CTFs, labs, and authorized practice. The animated markers below show topics on my learning roadmap—not proficiency percentages.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/main/cyber-roadmap.svg" alt="Animated cybersecurity learning roadmap: web exploitation, reverse engineering, network traffic analysis, and CTF problem-solving" width="100%" />
+</div>
+
 ## Languages & web technologies
 
 <p align="center">
@@ -65,6 +73,10 @@
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=sarhal7&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub contribution streak" />
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/main/cyber-cat.svg" alt="Animated coding cat at a terminal" width="260" />
 </div>
 
 ---

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="210" viewBox="0 0 340 210" role="img" aria-labelledby="title desc">
+  <title id="title">Ayaan's coding cat</title>
+  <desc id="desc">A friendly pixel-inspired cat mascot typing at a glowing terminal.</desc>
+  <rect width="340" height="210" rx="18" fill="#0d1117"/>
+  <circle cx="280" cy="39" r="2" fill="#38bdf8"><animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="308" cy="68" r="2" fill="#a78bfa"><animate attributeName="opacity" values="1;.25;1" dur="3s" repeatCount="indefinite"/></circle>
+  <path d="M93 72 L101 34 L130 57 Q151 48 172 57 L201 34 L207 77" fill="#cbd5e1" stroke="#38bdf8" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M106 63 L111 45 L126 58 M188 58 L198 45 L195 65" fill="#a78bfa"/>
+  <ellipse cx="150" cy="91" rx="61" ry="48" fill="#cbd5e1" stroke="#38bdf8" stroke-width="4"/>
+  <ellipse cx="130" cy="87" rx="5" ry="7" fill="#0d1117"><animate attributeName="ry" values="7;7;1;7;7" keyTimes="0;.45;.49;.53;1" dur="4s" repeatCount="indefinite"/></ellipse>
+  <ellipse cx="170" cy="87" rx="5" ry="7" fill="#0d1117"><animate attributeName="ry" values="7;7;1;7;7" keyTimes="0;.45;.49;.53;1" dur="4s" repeatCount="indefinite"/></ellipse>
+  <path d="M146 101 Q151 106 156 101 M151 106 Q146 114 140 110 M151 106 Q157 114 163 110" fill="none" stroke="#0d1117" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M111 99 L79 95 M112 107 L78 111 M190 99 L222 95 M190 107 L224 111" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M105 126 Q151 110 198 126 L215 177 L87 177 Z" fill="#1e293b" stroke="#38bdf8" stroke-width="3"/>
+  <rect x="62" y="151" width="216" height="39" rx="7" fill="#111827" stroke="#475569" stroke-width="3"/>
+  <path d="M81 167 l7 6 -7 6 M98 179 h11" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="opacity" values="1;.25;1" dur="1.2s" repeatCount="indefinite"/></path>
+  <rect x="133" y="143" width="50" height="8" rx="4" fill="#a78bfa"><animate attributeName="width" values="50;27;50" dur="1.1s" repeatCount="indefinite"/></rect>
+  <path d="M119 127 Q101 133 94 126" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" values="0 110 129;12 110 129;0 110 129" dur="2s" repeatCount="indefinite"/></path>
+</svg>

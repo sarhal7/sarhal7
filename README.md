@@ -9,4 +9,4 @@ SALAM! 👋
 🦀 And Football⚽  
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sarhal7&show_icons=true)
-![image]({https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white})
+<img src="{(https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white)}" />

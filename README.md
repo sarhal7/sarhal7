@@ -20,20 +20,41 @@
 
 ## About me
 
-- Based in **Islamabad, Pakistan**.
-- Interested in **cybersecurity** and how to build safer, more resilient software.
-- I enjoy making practical projects, experimenting with code, and learning something new along the way.
-- Outside the terminal: **football**.
-- Currently growing my skills—always learning, always building.
+<div align="center">
+
+**Islamabad-based builder exploring cybersecurity, creating practical projects, and learning by doing.**
+
+<img src="https://img.shields.io/badge/BASED_IN-Islamabad%2C%20Pakistan-0ea5e9?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Based in Islamabad, Pakistan" />
+<img src="https://img.shields.io/badge/FOCUS-Cybersecurity-8b5cf6?style=for-the-badge&logo=owasp&logoColor=white" alt="Focus: cybersecurity" />
+<img src="https://img.shields.io/badge/MINDSET-Learn%20%2F%20Build%20%2F%20Repeat-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Learn, build, repeat" />
+<img src="https://img.shields.io/badge/OFFLINE_FUEL-Football-f59e0b?style=for-the-badge&logoColor=white" alt="Enjoys football" />
+
+</div>
 
 ## Cybersecurity journey
 
-### Highlights
-
-- **IGNITE Hackathon:** Qualified as a team.
-- **Nexploit BlackHat CTF:** Achieved **39th place** as a team.
-- **CTFs:** Participated in various Capture The Flag competitions.
-- **UET Taxila:** Proud to represent the **first team from our university** in this journey.
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://img.shields.io/badge/IGNITE_HACKATHON-TEAM_QUALIFIER-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="IGNITE Hackathon team qualifier" /><br/>
+      Qualified as a team
+    </td>
+    <td width="50%" align="center">
+      <img src="https://img.shields.io/badge/NEXPLOIT_BLACKHAT_CTF-39TH_PLACE-0ea5e9?style=for-the-badge&logo=hackthebox&logoColor=white" alt="39th place in Nexploit BlackHat CTF" /><br/>
+      Team result
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://img.shields.io/badge/CTF_PLAYER-MULTIPLE_EVENTS-10b981?style=for-the-badge&logo=ctftime&logoColor=white" alt="Participated in various CTF events" /><br/>
+      Competing, learning, improving
+    </td>
+    <td width="50%" align="center">
+      <img src="https://img.shields.io/badge/UET_TAXILA-FIRST_TEAM-f59e0b?style=for-the-badge&logo=google-scholar&logoColor=white" alt="First team from UET Taxila" /><br/>
+      Proud to represent our university
+    </td>
+  </tr>
+</table>
 
 ### Hands-on toolkit
 

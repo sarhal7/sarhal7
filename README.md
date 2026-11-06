@@ -6,6 +6,10 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Exploring+Cybersecurity+%26+Defensive+Security;Building+small+tools+and+web+projects;Learning+by+breaking%2C+fixing%2C+and+building;Islamabad%2C+Pakistan+%7C+Open+to+collaboration" alt="Animated introduction" />
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/main/cyber-cat.svg" alt="Animated coding cat at a terminal" width="260" />
+</p>
+
 <p>
   <img src="https://komarev.com/ghpvc/?username=sarhal7&style=flat-square&color=0ea5e9&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
@@ -73,10 +77,6 @@
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=sarhal7&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub contribution streak" />
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/main/cyber-cat.svg" alt="Animated coding cat at a terminal" width="260" />
 </div>
 
 ---

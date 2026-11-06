@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="208" viewBox="0 0 880 208" role="img" aria-labelledby="title desc">
+  <title id="title">Cybersecurity learning roadmap</title>
+  <desc id="desc">Four topics currently being explored. Moving indicators show active learning, not proficiency percentages.</desc>
+  <rect width="880" height="208" rx="16" fill="#0d1117"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#c9d1d9">
+    <text x="24" y="35" font-size="15" fill="#38bdf8">ACTIVE LEARNING ROADMAP</text>
+    <text x="24" y="74" font-size="13">Web exploitation</text>
+    <text x="24" y="115" font-size="13">Reverse engineering</text>
+    <text x="24" y="156" font-size="13">Network traffic analysis</text>
+    <text x="24" y="197" font-size="13">CTF problem-solving</text>
+  </g>
+  <g fill="#17212b">
+    <rect x="270" y="59" width="580" height="13" rx="6.5"/><rect x="270" y="100" width="580" height="13" rx="6.5"/>
+    <rect x="270" y="141" width="580" height="13" rx="6.5"/><rect x="270" y="182" width="580" height="13" rx="6.5"/>
+  </g>
+  <g fill="#38bdf8">
+    <circle cy="65.5" r="5"><animate attributeName="cx" values="276;844;276" dur="4s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="#a78bfa">
+    <circle cy="106.5" r="5"><animate attributeName="cx" values="276;844;276" dur="5.2s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="#34d399">
+    <circle cy="147.5" r="5"><animate attributeName="cx" values="276;844;276" dur="4.6s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="#fbbf24">
+    <circle cy="188.5" r="5"><animate attributeName="cx" values="276;844;276" dur="5.8s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>

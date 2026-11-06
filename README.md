@@ -92,8 +92,7 @@
 ## GitHub at a glance
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=sarhal7&show_icons=true&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=c9d1d9" alt="Ayaan's GitHub stats" />
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sarhal7&layout=compact&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9" alt="Most used languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sarhal7&theme=github_dark" alt="Ayaan's GitHub profile summary" width="700" />
 </div>
 
 <div align="center">

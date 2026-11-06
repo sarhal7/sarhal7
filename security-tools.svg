@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="230" viewBox="0 0 620 230" role="img" aria-labelledby="title desc">
+  <title id="title">Hands-on security toolkit</title>
+  <desc id="desc">Custom illustrated SVG badges for Kali Linux, Nmap, Burp Suite, Wireshark, Metasploit, and Ghidra.</desc>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c4b5fd"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fdba74"/><stop offset="1" stop-color="#ea580c"/></linearGradient>
+  </defs>
+  <rect width="620" height="230" rx="18" fill="#0d1117" stroke="#253448"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="700" font-size="14" fill="#e2e8f0">
+    <!-- Kali -->
+    <g><rect x="12" y="12" width="292" height="62" rx="12" fill="#111c29" stroke="#26394d"/>
+      <path d="M35 31l13-7 13 7v15c0 8-6 13-13 16-7-3-13-8-13-16z" fill="none" stroke="url(#blue)" stroke-width="3"/><path d="M41 45l5 5 10-12" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="74" y="49">Kali Linux</text><text x="74" y="64" fill="#64748b" font-size="9" font-weight="400">SECURITY WORKSTATION</text>
+    </g>
+    <!-- Nmap -->
+    <g><rect x="316" y="12" width="292" height="62" rx="12" fill="#111c29" stroke="#26394d"/>
+      <circle cx="350" cy="43" r="17" fill="none" stroke="url(#blue)" stroke-width="2.5"/><circle cx="350" cy="43" r="9" fill="none" stroke="#38bdf8" stroke-width="1.5"/><path d="M350 43l13-13M350 26v4M367 43h-4M350 60v-4M333 43h4" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+      <text x="380" y="49">Nmap</text><text x="380" y="64" fill="#64748b" font-size="9" font-weight="400">NETWORK MAPPING</text>
+    </g>
+    <!-- Burp -->
+    <g><rect x="12" y="84" width="292" height="62" rx="12" fill="#111c29" stroke="#26394d"/>
+      <path d="M34 107h13l7 8-7 8H34M59 107H46l-7 8 7 8h13" fill="none" stroke="url(#orange)" stroke-width="3" stroke-linejoin="round"/><circle cx="46" cy="115" r="3" fill="#fdba74"/>
+      <text x="74" y="121">Burp Suite</text><text x="74" y="136" fill="#64748b" font-size="9" font-weight="400">WEB APP TESTING</text>
+    </g>
+    <!-- Wireshark -->
+    <g><rect x="316" y="84" width="292" height="62" rx="12" fill="#111c29" stroke="#26394d"/>
+      <path d="M333 115h6l4-11 7 22 6-17 5 6h7" fill="none" stroke="url(#blue)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="333" cy="115" r="2.5" fill="#38bdf8"/><circle cx="368" cy="115" r="2.5" fill="#38bdf8"/>
+      <text x="380" y="121">Wireshark</text><text x="380" y="136" fill="#64748b" font-size="9" font-weight="400">PACKET ANALYSIS</text>
+    </g>
+    <!-- Metasploit -->
+    <g><rect x="12" y="156" width="292" height="62" rx="12" fill="#111c29" stroke="#26394d"/>
+      <path d="M46 168l15 9v17l-15 9-15-9v-17z" fill="none" stroke="url(#orange)" stroke-width="2.5"/><path d="M49 173l-9 12h7l-3 10 10-14h-7z" fill="#fb923c"/>
+      <text x="74" y="193">Metasploit</text><text x="74" y="208" fill="#64748b" font-size="9" font-weight="400">PENETRATION TESTING</text>
+    </g>
+    <!-- Ghidra -->
+    <g><rect x="316" y="156" width="292" height="62" rx="12" fill="#111c29" stroke="#26394d"/>
+      <rect x="334" y="171" width="32" height="32" rx="6" fill="none" stroke="url(#violet)" stroke-width="2.5"/><path d="M342 179h16v16h-16zM338 177h-4m4 8h-4m4 8h-4m24-16h4m-4 8h4m-4 8h4m-18-22v-4m8 4v-4m-8 28v4m8-4v4" stroke="#a78bfa" stroke-width="1.8" stroke-linecap="round"/><path d="M345 190l4-7 5 7" fill="none" stroke="#c4b5fd" stroke-width="1.8"/>
+      <text x="380" y="193">Ghidra</text><text x="380" y="208" fill="#64748b" font-size="9" font-weight="400">REVERSE ENGINEERING</text>
+    </g>
+  </g>
+</svg>

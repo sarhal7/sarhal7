@@ -15,7 +15,7 @@
   <rect x="62" y="151" width="216" height="39" rx="7" fill="#111827" stroke="#475569" stroke-width="3"/>
   <text x="78" y="178" fill="#34d399" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">&gt;</text>
   <defs>
-    <clipPath id="typedTextClip">
+    <clipPath id="typedTextClip" clipPathUnits="userSpaceOnUse">
       <rect x="99" y="158" width="0" height="23">
         <animate attributeName="width" values="0;0;64;64;0" keyTimes="0;0.08;0.38;0.9;1" dur="7.5s" repeatCount="indefinite" />
       </rect>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="340" height="210" viewBox="0 0 340 210" role="img" aria-labelledby="title desc">
   <title id="title">Ayaan's coding cat</title>
-  <desc id="desc">A friendly pixel-inspired cat mascot typing at a glowing terminal.</desc>
+  <desc id="desc">A friendly pixel-inspired cat mascot typing the word carpediem into a terminal.</desc>
   <rect width="340" height="210" rx="18" fill="#0d1117"/>
   <circle cx="280" cy="39" r="2" fill="#38bdf8"><animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/></circle>
   <circle cx="308" cy="68" r="2" fill="#a78bfa"><animate attributeName="opacity" values="1;.25;1" dur="3s" repeatCount="indefinite"/></circle>
@@ -13,7 +13,19 @@
   <path d="M111 99 L79 95 M112 107 L78 111 M190 99 L222 95 M190 107 L224 111" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
   <path d="M105 126 Q151 110 198 126 L215 177 L87 177 Z" fill="#1e293b" stroke="#38bdf8" stroke-width="3"/>
   <rect x="62" y="151" width="216" height="39" rx="7" fill="#111827" stroke="#475569" stroke-width="3"/>
-  <path d="M81 167 l7 6 -7 6 M98 179 h11" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="opacity" values="1;.25;1" dur="1.2s" repeatCount="indefinite"/></path>
+  <text x="78" y="178" fill="#34d399" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">&gt;</text>
+  <defs>
+    <clipPath id="typedTextClip">
+      <rect x="99" y="158" width="0" height="23">
+        <animate attributeName="width" values="0;0;64;64;0" keyTimes="0;0.08;0.64;0.76;1" dur="4s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+  </defs>
+  <text x="99" y="178" fill="#34d399" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="0.4" clip-path="url(#typedTextClip)">carpediem</text>
+  <rect x="99" y="165" width="2.5" height="13" rx="1" fill="#34d399">
+    <animate attributeName="x" values="99;99;163;163;99" keyTimes="0;0.08;0.64;0.76;1" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="1;0.15;1;0.15;1" dur="0.8s" repeatCount="indefinite" />
+  </rect>
   <rect x="133" y="143" width="50" height="8" rx="4" fill="#a78bfa"><animate attributeName="width" values="50;27;50" dur="1.1s" repeatCount="indefinite"/></rect>
   <path d="M119 127 Q101 133 94 126" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" values="0 110 129;12 110 129;0 110 129" dur="2s" repeatCount="indefinite"/></path>
 </svg>

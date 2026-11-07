@@ -7,7 +7,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Exploring+Cybersecurity+%26+Defensive+Security;Building+small+tools+and+web+projects;Learning+by+breaking%2C+fixing%2C+and+building;Islamabad%2C+Pakistan+%7C+Open+to+collaboration" alt="Animated introduction" />
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/3b825ccba864db69582137a5be80cddec0b3a47f/cyber-cat.svg" alt="Animated coding cat typing carpediem in its terminal" width="260" />
+  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/090dc8b72fa470dbfa4a11b1dfc33609e06553a2/cyber-cat.svg" alt="Animated coding cat typing carpediem in its terminal" width="260" />
 </p>
 
 <p>

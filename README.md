@@ -55,10 +55,10 @@
 
 ### Advanced topics I'm exploring
 
-**Web exploitation and reverse engineering** are areas I'm actively learning through CTFs, labs, and authorized practice. The animated markers below show topics on my learning roadmap—not proficiency percentages.
+**Web exploitation and reverse engineering** are areas I'm actively learning through CTFs, labs, and authorized practice. The numbered stops below organize topics I'm exploring; they aren't proficiency rankings.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/main/cyber-roadmap.svg" alt="Animated cybersecurity learning roadmap: web exploitation, reverse engineering, network traffic analysis, and CTF problem-solving" width="100%" />
+  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/2b30a4f4701b1ea56a5ea2dee95d92a887521218/cyber-roadmap.svg" alt="Animated cybersecurity learning roadmap: web exploitation, reverse engineering, network traffic analysis, and CTF problem-solving" width="100%" />
 </div>
 
 ## Languages & web technologies

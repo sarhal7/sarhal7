@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey, I'm Ayaan
+# Hi, I'm Ayaan
 
 ### `Curious mind. Builder in progress. Security-focused learner.`
 
@@ -22,7 +22,7 @@
 
 <div align="center">
 
-**Islamabad-based builder exploring cybersecurity, creating practical projects, and learning by doing.**
+**Unknown-based builder exploring cybersecurity, creating practical projects, and learning by doing.**
 
 <img src="https://img.shields.io/badge/BASED_IN-Islamabad%2C%20Pakistan-0ea5e9?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Based in Islamabad, Pakistan" />
 <img src="https://img.shields.io/badge/FOCUS-Cybersecurity-8b5cf6?style=for-the-badge&logo=owasp&logoColor=white" alt="Focus: cybersecurity" />
@@ -88,6 +88,8 @@
 <div align="center">
 
 ### `Keep learning. Keep building. Stay curious.`
+### `If I must fall, may it be from a greater height.`
+### `There are decades where nothing happens,and there are weeks where decades happens.`
 
 [![GitHub](https://img.shields.io/badge/GitHub-sarhal7-0d1117?style=for-the-badge&logo=github)](https://github.com/sarhal7)
 

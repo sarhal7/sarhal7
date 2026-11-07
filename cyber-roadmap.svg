@@ -1,44 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="276" viewBox="0 0 900 276" role="img" aria-labelledby="title desc">
-  <title id="title">Cybersecurity learning roadmap</title>
-  <desc id="desc">Illustrated learning topics: web exploitation, reverse engineering, network analysis, and CTF practice. Animated markers indicate active exploration, not skill percentages.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="354" viewBox="0 0 540 354" role="img" aria-labelledby="title desc">
+  <title id="title">Security field notes: learning map</title>
+  <desc id="desc">A four-topic learning map covering web exploitation, reverse engineering, network analysis, and CTF problem-solving. The numbered stops are themes, not proficiency rankings.</desc>
   <defs>
-    <linearGradient id="glow" x1="0" x2="1"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
-    <filter id="soft"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="route" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#63d6c5"/>
+      <stop offset="1" stop-color="#f4b860"/>
+    </linearGradient>
+    <filter id="paperShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#020617" flood-opacity=".24"/>
+    </filter>
   </defs>
-  <rect width="900" height="276" rx="18" fill="#0d1117" stroke="#243244"/>
-  <text x="26" y="35" fill="#38bdf8" font-family="ui-monospace,monospace" font-size="14" font-weight="700" letter-spacing="1.2">CYBERSECURITY // LEARNING ROADMAP</text>
-  <text x="26" y="55" fill="#64748b" font-family="ui-monospace,monospace" font-size="10">ACTIVE EXPLORATION · NOT A PROFICIENCY SCORE</text>
-  <g font-family="ui-monospace,monospace" font-size="13" fill="#dbeafe">
-    <rect x="22" y="71" width="856" height="42" rx="10" fill="#111c29" stroke="#203146"/>
-    <rect x="22" y="120" width="856" height="42" rx="10" fill="#111c29" stroke="#203146"/>
-    <rect x="22" y="169" width="856" height="42" rx="10" fill="#111c29" stroke="#203146"/>
-    <rect x="22" y="218" width="856" height="42" rx="10" fill="#111c29" stroke="#203146"/>
-    <text x="83" y="97">Web exploitation</text>
-    <text x="83" y="146">Reverse engineering</text>
-    <text x="83" y="195">Network traffic analysis</text>
-    <text x="83" y="244">CTF problem-solving</text>
-    <text x="302" y="97" fill="#64748b" font-size="10">HTTP · INPUTS · AUTH</text>
-    <text x="302" y="146" fill="#64748b" font-size="10">BINARIES · PROGRAM BEHAVIOR</text>
-    <text x="302" y="195" fill="#64748b" font-size="10">PACKETS · PROTOCOLS</text>
-    <text x="302" y="244" fill="#64748b" font-size="10">PUZZLES · TEAMWORK</text>
-  </g>
-  <g fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-    <!-- browser / web icon -->
-    <rect x="39" y="82" width="29" height="22" rx="4" stroke="#38bdf8"/><path d="M39 89h29M45 86h.1M50 86h.1M55 86h.1M47 97l-4 3 4 3M60 97l4 3-4 3M56 96l-4 8" stroke="#38bdf8"/>
-    <!-- reverse / chip icon -->
-    <rect x="44" y="129" width="20" height="23" rx="4" stroke="#a78bfa"/><path d="M49 135h10v11H49zM49 125v4M59 125v4M49 152v4M59 152v4M40 135h4M40 145h4M64 135h4M64 145h4" stroke="#a78bfa"/>
-    <!-- network nodes icon -->
-    <circle cx="54" cy="190" r="5" stroke="#34d399"/><circle cx="43" cy="180" r="3" stroke="#34d399"/><circle cx="65" cy="180" r="3" stroke="#34d399"/><circle cx="43" cy="201" r="3" stroke="#34d399"/><circle cx="65" cy="201" r="3" stroke="#34d399"/><path d="M50 187l-5-5m13 5 5-5m-12 7-6 5m12-5 6 5" stroke="#34d399"/>
-    <!-- flag / CTF icon -->
-    <path d="M45 252v-24m1 2q10-6 19 0v12q-9-6-19 0" stroke="#fbbf24"/><path d="M51 234h9M51 239h7" stroke="#fbbf24"/>
-  </g>
-  <g fill="#17212b">
-    <rect x="594" y="89" width="250" height="8" rx="4"/><rect x="594" y="138" width="250" height="8" rx="4"/><rect x="594" y="187" width="250" height="8" rx="4"/><rect x="594" y="236" width="250" height="8" rx="4"/>
-  </g>
-  <g fill="url(#glow)" filter="url(#soft)">
-    <circle cy="93" r="5"><animate attributeName="cx" values="600;838;600" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cy="142" r="5"><animate attributeName="cx" values="600;838;600" dur="5.1s" repeatCount="indefinite"/></circle>
-    <circle cy="191" r="5"><animate attributeName="cx" values="600;838;600" dur="4.5s" repeatCount="indefinite"/></circle>
-    <circle cy="240" r="5"><animate attributeName="cx" values="600;838;600" dur="5.7s" repeatCount="indefinite"/></circle>
+
+  <rect x="1" y="1" width="538" height="352" rx="20" fill="#111a22" stroke="#2b3941" stroke-width="2"/>
+  <path d="M24 72H516" stroke="#2b3941" stroke-width="1"/>
+
+  <text x="27" y="32" fill="#78d8c6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700" letter-spacing="1.6">FIELD NOTES  /  SECURITY</text>
+  <text x="27" y="59" fill="#f3f0e8" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="700">A map of what I'm learning</text>
+  <text x="513" y="34" text-anchor="end" fill="#aab6b2" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing=".6">CTFs · LABS · PRACTICE</text>
+
+  <path d="M48 112V296" fill="none" stroke="#53635f" stroke-width="2" stroke-dasharray="3 7"/>
+  <path d="M48 112V296" fill="none" stroke="url(#route)" stroke-width="2" stroke-dasharray="26 158" stroke-linecap="round" opacity=".85">
+    <animate attributeName="stroke-dashoffset" values="0;-184" dur="8s" repeatCount="indefinite"/>
+  </path>
+
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <rect x="75" y="86" width="438" height="58" rx="10" fill="#18242b" stroke="#30434a"/>
+    <circle cx="48" cy="115" r="13" fill="#172a2a" stroke="#63d6c5" stroke-width="2"/>
+    <text x="48" y="119" text-anchor="middle" fill="#9ce7d9" font-family="ui-monospace, monospace" font-size="10" font-weight="700">01</text>
+    <text x="94" y="110" fill="#f3f0e8" font-size="16" font-weight="700">Web exploitation</text>
+    <text x="94" y="130" fill="#aab6b2" font-size="12">HTTP · input handling · authentication</text>
+    <path d="M480 108l6 7-6 7" fill="none" stroke="#63d6c5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="75" y="151" width="438" height="58" rx="10" fill="#18242b" stroke="#30434a"/>
+    <circle cx="48" cy="180" r="13" fill="#25202a" stroke="#c8a2e8" stroke-width="2"/>
+    <text x="48" y="184" text-anchor="middle" fill="#dfc5f3" font-family="ui-monospace, monospace" font-size="10" font-weight="700">02</text>
+    <text x="94" y="175" fill="#f3f0e8" font-size="16" font-weight="700">Reverse engineering</text>
+    <text x="94" y="195" fill="#aab6b2" font-size="12">Binaries · behavior · careful analysis</text>
+    <path d="M480 173l6 7-6 7" fill="none" stroke="#c8a2e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="75" y="216" width="438" height="58" rx="10" fill="#18242b" stroke="#30434a"/>
+    <circle cx="48" cy="245" r="13" fill="#29251e" stroke="#f4b860" stroke-width="2"/>
+    <text x="48" y="249" text-anchor="middle" fill="#f9d28f" font-family="ui-monospace, monospace" font-size="10" font-weight="700">03</text>
+    <text x="94" y="240" fill="#f3f0e8" font-size="16" font-weight="700">Network analysis</text>
+    <text x="94" y="260" fill="#aab6b2" font-size="12">Packets · protocols · traffic patterns</text>
+    <path d="M480 238l6 7-6 7" fill="none" stroke="#f4b860" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="75" y="281" width="438" height="58" rx="10" fill="#18242b" stroke="#30434a"/>
+    <circle cx="48" cy="310" r="13" fill="#222629" stroke="#a7c4df" stroke-width="2"/>
+    <text x="48" y="314" text-anchor="middle" fill="#cfe0ee" font-family="ui-monospace, monospace" font-size="10" font-weight="700">04</text>
+    <text x="94" y="305" fill="#f3f0e8" font-size="16" font-weight="700">CTF problem-solving</text>
+    <text x="94" y="325" fill="#aab6b2" font-size="12">Puzzles · collaboration · learning by doing</text>
+    <path d="M480 303l6 7-6 7" fill="none" stroke="#a7c4df" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>

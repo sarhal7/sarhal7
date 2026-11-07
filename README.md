@@ -1,13 +1,13 @@
 <div align="center">
 
-# Hi, I'm Ayaan
+# Hey, I'm Ayaan
 
 ### `Curious mind. Builder in progress. Security-focused learner.`
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Exploring+Cybersecurity+%26+Defensive+Security;Building+small+tools+and+web+projects;Learning+by+breaking%2C+fixing%2C+and+building;Islamabad%2C+Pakistan+%7C+Open+to+collaboration" alt="Animated introduction" />
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/main/cyber-cat.svg" alt="Animated coding cat at a terminal" width="260" />
+  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/3b825ccba864db69582137a5be80cddec0b3a47f/cyber-cat.svg" alt="Animated coding cat typing carpediem in its terminal" width="260" />
 </p>
 
 <p>
@@ -22,7 +22,7 @@
 
 <div align="center">
 
-**Unknown-based builder exploring cybersecurity, creating practical projects, and learning by doing.**
+**Islamabad-based builder exploring cybersecurity, creating practical projects, and learning by doing.**
 
 <img src="https://img.shields.io/badge/BASED_IN-Islamabad%2C%20Pakistan-0ea5e9?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Based in Islamabad, Pakistan" />
 <img src="https://img.shields.io/badge/FOCUS-Cybersecurity-8b5cf6?style=for-the-badge&logo=owasp&logoColor=white" alt="Focus: cybersecurity" />
@@ -88,8 +88,6 @@
 <div align="center">
 
 ### `Keep learning. Keep building. Stay curious.`
-### `If I must fall, may it be from a greater height.`
-### `There are decades where nothing happens,and there are weeks where decades happens.`
 
 [![GitHub](https://img.shields.io/badge/GitHub-sarhal7-0d1117?style=for-the-badge&logo=github)](https://github.com/sarhal7)
 

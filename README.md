@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/main/visitor-counter.svg?v=1" alt="Animated cyber-themed visitor telemetry label" height="40" />
-  <img src="https://komarev.com/ghpvc/?username=sarhal7&amp;label=VISITS&amp;style=for-the-badge&amp;color=00bfa5" alt="Live profile views; counts image requests, not unique visitors" height="40" />
+  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/main/visitor-counter.svg?v=1" alt="Animated cyber-themed visitor telemetry label" width="145" height="40" />
+  <img src="https://komarev.com/ghpvc/?username=sarhal7&amp;label=VISITS&amp;style=for-the-badge&amp;color=00bfa5" alt="Live profile views; counts image requests, not unique visitors" width="140" height="40" />
 </p>
 
 </div>

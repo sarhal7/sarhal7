@@ -76,11 +76,7 @@
 ## GitHub at a glance
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sarhal7&theme=github_dark" alt="Ayaan's GitHub profile summary" width="700" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=sarhal7&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8&currStreakNum=FFFFFF&sideLabels=FFFFFF&sideNums=FFFFFF&dates=9CA3AF" alt="GitHub contribution streak" />
+  <img src="github-metrics.svg" alt="Animated GitHub profile metrics: overview, activity, community, repositories, and yearly contribution calendar" width="480" />
 </div>
 
 ---

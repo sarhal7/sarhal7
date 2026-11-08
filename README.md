@@ -58,7 +58,7 @@
 **Web exploitation and reverse engineering** are areas I'm actively learning through CTFs, labs, and authorized practice. The numbered stops below organize topics I'm exploring; they aren't proficiency rankings.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/2b30a4f4701b1ea56a5ea2dee95d92a887521218/cyber-roadmap.svg" alt="Animated cybersecurity learning roadmap: web exploitation, reverse engineering, network traffic analysis, and CTF problem-solving" width="100%" />
+  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/a21a2c2869554eff0e8a0f0f7237492ac969e440/cyber-roadmap.svg" alt="Animated security lab field notes: a signal trace connecting web exploitation, reverse engineering, network analysis, and CTF practice" width="560" />
 </div>
 
 ## Languages & web technologies
@@ -78,6 +78,20 @@
 <div align="center">
   <img src="github-metrics.svg" alt="Animated GitHub profile metrics: overview, activity, community, repositories, and yearly contribution calendar" width="480" />
 </div>
+
+## GitHub trophies & activity
+
+<p align="center">
+  <img src="https://nirzak-trophies.vercel.app/?username=sarhal7&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=5" alt="GitHub profile trophies earned by Ayaan" width="100%" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="github-contribution-grid-snake.svg" />
+    <img src="github-contribution-grid-snake-dark.svg" alt="Animated snake moving through Ayaan's GitHub contribution grid" width="100%" />
+  </picture>
+</p>
 
 ---
 

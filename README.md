@@ -10,8 +10,9 @@
   <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/b5e7fb9542d3001e2f4d71d954c7eba7344b81b5/cyber-cat.svg" alt="Animated coding cat typing carpediem in its terminal" width="260" />
 </p>
 
-<p>
-  <img src="https://komarev.com/ghpvc/?username=sarhal7&style=flat-square&color=0ea5e9&label=PROFILE+VIEWS" alt="Profile views" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/main/visitor-counter.svg?v=1" alt="Animated cyber-themed visitor telemetry label" height="40" />
+  <img src="https://komarev.com/ghpvc/?username=sarhal7&amp;label=VISITS&amp;style=for-the-badge&amp;color=00bfa5" alt="Live profile views; counts image requests, not unique visitors" height="40" />
 </p>
 
 </div>

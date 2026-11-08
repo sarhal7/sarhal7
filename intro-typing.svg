@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="34" viewBox="0 0 700 34" role="img" aria-labelledby="title desc">
+  <title id="title">Ayaan's animated profile introduction</title>
+  <desc id="desc">Cycling messages: exploring cybersecurity, building small tools and web projects, learning by doing, and being open to collaboration in Islamabad, Pakistan.</desc>
+  <text x="350" y="22" text-anchor="middle" fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="600" opacity="0">Exploring Cybersecurity &amp; Defensive Security<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.22;.25;1" dur="12s" repeatCount="indefinite"/></text>
+  <text x="350" y="22" text-anchor="middle" fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="600" opacity="0">Building small tools and web projects<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.22;.25;1" dur="12s" begin="3s" repeatCount="indefinite"/></text>
+  <text x="350" y="22" text-anchor="middle" fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="600" opacity="0">Learning by breaking, fixing, and building<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.22;.25;1" dur="12s" begin="6s" repeatCount="indefinite"/></text>
+  <text x="350" y="22" text-anchor="middle" fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="600" opacity="0">Islamabad, Pakistan  |  Open to collaboration<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.02;.22;.25;1" dur="12s" begin="9s" repeatCount="indefinite"/></text>
+</svg>

@@ -4,14 +4,14 @@
 
 ### `Curious mind. Builder in progress. Security-focused learner.`
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Exploring+Cybersecurity+%26+Defensive+Security;Building+small+tools+and+web+projects;Learning+by+breaking%2C+fixing%2C+and+building;Islamabad%2C+Pakistan+%7C+Open+to+collaboration" alt="Animated introduction" />
+<img src="intro-typing.svg" alt="Animated profile introduction" width="700" />
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/b5e7fb9542d3001e2f4d71d954c7eba7344b81b5/cyber-cat.svg" alt="Animated coding cat typing carpediem in its terminal" width="260" />
+  <img src="cyber-cat.svg?v=2" alt="Animated coding cat typing carpediem in its terminal" width="260" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/main/visitor-counter.svg?v=1" alt="Animated cyber-themed visitor telemetry label" width="145" height="40" />
+  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/main/visitor-counter.svg?v=2" alt="Animated cyber-themed visitor telemetry label" width="145" height="40" />
   <img src="https://komarev.com/ghpvc/?username=sarhal7&amp;label=VISITS&amp;style=for-the-badge&amp;color=00bfa5" alt="Live profile views; counts image requests, not unique visitors" width="140" height="40" />
 </p>
 
@@ -59,13 +59,13 @@
 **Web exploitation and reverse engineering** are areas I'm actively learning through CTFs, labs, and authorized practice. The numbered stops below organize topics I'm exploring; they aren't proficiency rankings.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sarhal7/sarhal7/a21a2c2869554eff0e8a0f0f7237492ac969e440/cyber-roadmap.svg" alt="Animated security lab field notes: a signal trace connecting web exploitation, reverse engineering, network analysis, and CTF practice" width="560" />
+  <img src="cyber-roadmap.svg?v=2" alt="Animated security lab field notes: a signal trace connecting web exploitation, reverse engineering, network analysis, and CTF practice" width="560" />
 </div>
 
-## Languages & web technologies
+## Stack in motion
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,html,css,js,java&theme=dark" alt="C, C++, Python, HTML, CSS, JavaScript, and Java icons" />
+  <img src="tech-stack-ticker.svg" alt="Animated cyberpunk ticker for C, C++, Python, HTML, CSS, JavaScript, Java, Kali Linux, Nmap, Burp Suite, Wireshark, Metasploit, and Ghidra" width="680" />
 </p>
 
 ## A few things I've built
@@ -80,17 +80,19 @@
   <img src="github-metrics.svg" alt="Animated GitHub profile metrics: overview, activity, community, repositories, and yearly contribution calendar" width="480" />
 </div>
 
-## GitHub trophies & activity
+## GitHub trophies
 
 <p align="center">
   <img src="https://nirzak-trophies.vercel.app/?username=sarhal7&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=5" alt="GitHub profile trophies earned by Ayaan" width="100%" />
 </p>
 
+## Contribution heatmap
+
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="github-contribution-grid-snake.svg" />
-    <img src="github-contribution-grid-snake-dark.svg" alt="Animated snake moving through Ayaan's GitHub contribution grid" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="github-contribution-grid-snake-dark.svg?v=cyberpunk1" />
+    <source media="(prefers-color-scheme: light)" srcset="github-contribution-grid-snake.svg?v=cyberpunk1" />
+    <img src="github-contribution-grid-snake-dark.svg?v=cyberpunk1" alt="Animated cyberpunk contribution heatmap with a neon snake traversing Ayaan's GitHub activity grid" width="100%" />
   </picture>
 </p>
 

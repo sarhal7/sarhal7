@@ -20,8 +20,8 @@ jobs:
           github_user_name: sarhal7
           github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
-            github-contribution-grid-snake.svg?palette=github
-            github-contribution-grid-snake-dark.svg?palette=github-dark
+            github-contribution-grid-snake.svg?color_snake=%23ff2e88&color_dots=%23f5f3ff,%23e9d5ff,%23c084fc,%239333ea,%235b21b6
+            github-contribution-grid-snake-dark.svg?color_snake=%23d7ff3f&color_dots=%2310121f,%2324173f,%235b21b6,%23d946ef,%2300f5d4
       - name: Commit generated snake assets
         run: |
           git config user.name "github-actions[bot]"

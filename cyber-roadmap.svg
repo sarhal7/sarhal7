@@ -16,10 +16,6 @@
       <path d="M18 0H0V18" fill="none" stroke="#a4bbc0" stroke-opacity=".055" stroke-width="1"/>
     </pattern>
     <clipPath id="traceWindow"><rect x="25" y="112" width="151" height="267" rx="13"/></clipPath>
-    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
 
   <rect x="1" y="1" width="558" height="428" rx="18" fill="#0d141b" stroke="#283943" stroke-width="2"/>
@@ -34,7 +30,6 @@
   <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" letter-spacing=".8">
     <circle cx="398" cy="28" r="3" fill="#65d8bf">
       <animate attributeName="opacity" values=".35;1;.35" dur="2.8s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="2.5;3.8;2.5" dur="2.8s" repeatCount="indefinite"/>
     </circle>
     <text x="408" y="31" fill="#b2c0bd">4 THREADS · OPEN</text>
   </g>
@@ -60,7 +55,7 @@
     <text x="64" y="283" fill="#f4d49e">PCAP</text>
     <text x="137" y="340" text-anchor="end" fill="#b8d8eb">CTF</text>
   </g>
-  <circle r="3.6" fill="#f2f1ec" filter="url(#softGlow)">
+  <circle r="3.6" fill="#f2f1ec">
     <animateMotion dur="8s" repeatCount="indefinite" path="M51 174 C104 174 151 181 151 220 C151 250 60 241 51 280 C44 311 95 337 151 337"/>
     <animate attributeName="opacity" values=".25;1;.25" dur="1.2s" repeatCount="indefinite"/>
   </circle>
@@ -72,9 +67,6 @@
     <g>
       <rect x="192" y="112" width="344" height="61" rx="11" fill="#141e26" stroke="#2a3a42"/>
       <rect x="192" y="124" width="3" height="36" rx="1.5" fill="#65d8bf"/>
-      <rect x="197" y="113" width="337" height="59" rx="10" fill="#65d8bf" opacity=".025">
-        <animate attributeName="opacity" values=".025;.12;.025" dur="8s" begin="0s" repeatCount="indefinite"/>
-      </rect>
       <text x="210" y="131" fill="#8bdccb" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" font-weight="700" letter-spacing="1.1">01  /  WEB</text>
       <text x="210" y="151" fill="#f0f1eb" font-size="15" font-weight="700">Web exploitation</text>
       <text x="210" y="166" fill="#a9b6b6" font-size="11">HTTP · input paths · authentication flows</text>
@@ -83,9 +75,6 @@
     <g>
       <rect x="192" y="178" width="344" height="61" rx="11" fill="#141e26" stroke="#2a3a42"/>
       <rect x="192" y="190" width="3" height="36" rx="1.5" fill="#b7a6ff"/>
-      <rect x="197" y="179" width="337" height="59" rx="10" fill="#b7a6ff" opacity=".025">
-        <animate attributeName="opacity" values=".025;.12;.025" dur="8s" begin="2s" repeatCount="indefinite"/>
-      </rect>
       <text x="210" y="197" fill="#c7bbff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" font-weight="700" letter-spacing="1.1">02  /  REVERSE</text>
       <text x="210" y="217" fill="#f0f1eb" font-size="15" font-weight="700">Reverse engineering</text>
       <text x="210" y="232" fill="#a9b6b6" font-size="11">Binaries · program behavior · logic</text>
@@ -94,9 +83,6 @@
     <g>
       <rect x="192" y="244" width="344" height="61" rx="11" fill="#141e26" stroke="#2a3a42"/>
       <rect x="192" y="256" width="3" height="36" rx="1.5" fill="#f2bc70"/>
-      <rect x="197" y="245" width="337" height="59" rx="10" fill="#f2bc70" opacity=".025">
-        <animate attributeName="opacity" values=".025;.12;.025" dur="8s" begin="4s" repeatCount="indefinite"/>
-      </rect>
       <text x="210" y="263" fill="#f0ca90" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" font-weight="700" letter-spacing="1.1">03  /  NETWORKS</text>
       <text x="210" y="283" fill="#f0f1eb" font-size="15" font-weight="700">Network analysis</text>
       <text x="210" y="298" fill="#a9b6b6" font-size="11">Packets · protocols · traffic patterns</text>
@@ -108,9 +94,6 @@
     <g>
       <rect x="192" y="310" width="344" height="61" rx="11" fill="#141e26" stroke="#2a3a42"/>
       <rect x="192" y="322" width="3" height="36" rx="1.5" fill="#8fc5e6"/>
-      <rect x="197" y="311" width="337" height="59" rx="10" fill="#8fc5e6" opacity=".025">
-        <animate attributeName="opacity" values=".025;.12;.025" dur="8s" begin="6s" repeatCount="indefinite"/>
-      </rect>
       <text x="210" y="329" fill="#a9d1e9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" font-weight="700" letter-spacing="1.1">04  /  CTFs</text>
       <text x="210" y="349" fill="#f0f1eb" font-size="15" font-weight="700">CTF problem-solving</text>
       <text x="210" y="364" fill="#a9b6b6" font-size="11">Puzzles · teamwork · write-ups</text>

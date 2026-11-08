@@ -36,7 +36,7 @@
       <animate attributeName="opacity" values=".35;1;.35" dur="2.8s" repeatCount="indefinite"/>
       <animate attributeName="r" values="2.5;3.8;2.5" dur="2.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="408" y="31" fill="#b2c0bd">LABS · CTFs · AUTHORIZED PRACTICE</text>
+    <text x="408" y="31" fill="#b2c0bd">4 THREADS · OPEN</text>
   </g>
   <path d="M24 101H536" stroke="#293941" stroke-width="1"/>
 

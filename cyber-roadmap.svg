@@ -1,55 +1,124 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="540" height="354" viewBox="0 0 540 354" role="img" aria-labelledby="title desc">
-  <title id="title">Security field notes: learning map</title>
-  <desc id="desc">A four-topic learning map covering web exploitation, reverse engineering, network analysis, and CTF problem-solving. The numbered stops are themes, not proficiency rankings.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="430" viewBox="0 0 560 430" role="img" aria-labelledby="title desc">
+  <title id="title">Security lab field notes</title>
+  <desc id="desc">A security-lab workbench showing four topics being explored through authorized labs and CTFs: web exploitation, reverse engineering, network analysis, and CTF problem-solving. A signal animates through a technical trace map.</desc>
   <defs>
-    <linearGradient id="route" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#63d6c5"/>
-      <stop offset="1" stop-color="#f4b860"/>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#64d9c2"/>
+      <stop offset=".52" stop-color="#b7a6ff"/>
+      <stop offset="1" stop-color="#f2bc70"/>
     </linearGradient>
-    <filter id="paperShadow" x="-10%" y="-10%" width="120%" height="125%">
-      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#020617" flood-opacity=".24"/>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#64d9c2" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#9fe8d8" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#64d9c2" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M18 0H0V18" fill="none" stroke="#a4bbc0" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <clipPath id="traceWindow"><rect x="25" y="112" width="151" height="267" rx="13"/></clipPath>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <rect x="1" y="1" width="538" height="352" rx="20" fill="#111a22" stroke="#2b3941" stroke-width="2"/>
-  <path d="M24 72H516" stroke="#2b3941" stroke-width="1"/>
+  <rect x="1" y="1" width="558" height="428" rx="18" fill="#0d141b" stroke="#283943" stroke-width="2"/>
+  <rect x="2" y="2" width="556" height="5" rx="2.5" fill="#25343b"/>
+  <circle cx="22" cy="4.5" r="2" fill="#65d8bf"/>
+  <circle cx="31" cy="4.5" r="2" fill="#d9aa69"/>
+  <circle cx="40" cy="4.5" r="2" fill="#9089d6"/>
 
-  <text x="27" y="32" fill="#78d8c6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700" letter-spacing="1.6">FIELD NOTES  /  SECURITY</text>
-  <text x="27" y="59" fill="#f3f0e8" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="700">A map of what I'm learning</text>
-  <text x="513" y="34" text-anchor="end" fill="#aab6b2" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing=".6">CTFs · LABS · PRACTICE</text>
+  <text x="25" y="31" fill="#7fdac7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700" letter-spacing="1.8">FIELD NOTES  /  SECURITY LAB</text>
+  <text x="25" y="65" fill="#f2f1ec" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="23" font-weight="700">What I'm learning by doing</text>
+  <text x="25" y="88" fill="#a6b3b2" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12">Web apps, binaries, networks, and CTF challenges.</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" letter-spacing=".8">
+    <circle cx="398" cy="28" r="3" fill="#65d8bf">
+      <animate attributeName="opacity" values=".35;1;.35" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="2.5;3.8;2.5" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="408" y="31" fill="#b2c0bd">LABS · CTFs · AUTHORIZED PRACTICE</text>
+  </g>
+  <path d="M24 101H536" stroke="#293941" stroke-width="1"/>
 
-  <path d="M48 112V296" fill="none" stroke="#53635f" stroke-width="2" stroke-dasharray="3 7"/>
-  <path d="M48 112V296" fill="none" stroke="url(#route)" stroke-width="2" stroke-dasharray="26 158" stroke-linecap="round" opacity=".85">
-    <animate attributeName="stroke-dashoffset" values="0;-184" dur="8s" repeatCount="indefinite"/>
+  <rect x="24" y="112" width="152" height="267" rx="13" fill="#111b23" stroke="#2b3e46"/>
+  <rect x="25" y="112" width="151" height="267" rx="13" fill="url(#grid)"/>
+  <text x="39" y="135" fill="#91aaa9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" letter-spacing="1.2">TRACE MAP</text>
+  <text x="161" y="135" text-anchor="end" fill="#5f777b" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8">LIVE</text>
+  <path d="M51 174 C104 174 151 181 151 220 C151 250 60 241 51 280 C44 311 95 337 151 337" fill="none" stroke="#42545a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M51 174 C104 174 151 181 151 220 C151 250 60 241 51 280 C44 311 95 337 151 337" fill="none" stroke="url(#trace)" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 13" opacity=".9">
+    <animate attributeName="stroke-dashoffset" values="0;-80" dur="4.5s" repeatCount="indefinite"/>
   </path>
+  <g fill="#0d141b" stroke-width="2">
+    <circle cx="51" cy="174" r="6" stroke="#65d8bf"/>
+    <circle cx="151" cy="220" r="6" stroke="#b7a6ff"/>
+    <circle cx="51" cy="280" r="6" stroke="#f2bc70"/>
+    <circle cx="151" cy="337" r="6" stroke="#8fc5e6"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" letter-spacing=".7">
+    <text x="64" y="177" fill="#9de6d9">HTTP</text>
+    <text x="137" y="223" text-anchor="end" fill="#d3c8ff">ELF</text>
+    <text x="64" y="283" fill="#f4d49e">PCAP</text>
+    <text x="137" y="340" text-anchor="end" fill="#b8d8eb">CTF</text>
+  </g>
+  <circle r="3.6" fill="#f2f1ec" filter="url(#softGlow)">
+    <animateMotion dur="8s" repeatCount="indefinite" path="M51 174 C104 174 151 181 151 220 C151 250 60 241 51 280 C44 311 95 337 151 337"/>
+    <animate attributeName="opacity" values=".25;1;.25" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="27" y="143" width="146" height="1.2" fill="url(#scan)" clip-path="url(#traceWindow)" opacity=".7">
+    <animate attributeName="y" values="145;368;145" dur="7s" repeatCount="indefinite"/>
+  </rect>
 
   <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
-    <rect x="75" y="86" width="438" height="58" rx="10" fill="#18242b" stroke="#30434a"/>
-    <circle cx="48" cy="115" r="13" fill="#172a2a" stroke="#63d6c5" stroke-width="2"/>
-    <text x="48" y="119" text-anchor="middle" fill="#9ce7d9" font-family="ui-monospace, monospace" font-size="10" font-weight="700">01</text>
-    <text x="94" y="110" fill="#f3f0e8" font-size="16" font-weight="700">Web exploitation</text>
-    <text x="94" y="130" fill="#aab6b2" font-size="12">HTTP · input handling · authentication</text>
-    <path d="M480 108l6 7-6 7" fill="none" stroke="#63d6c5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-
-    <rect x="75" y="151" width="438" height="58" rx="10" fill="#18242b" stroke="#30434a"/>
-    <circle cx="48" cy="180" r="13" fill="#25202a" stroke="#c8a2e8" stroke-width="2"/>
-    <text x="48" y="184" text-anchor="middle" fill="#dfc5f3" font-family="ui-monospace, monospace" font-size="10" font-weight="700">02</text>
-    <text x="94" y="175" fill="#f3f0e8" font-size="16" font-weight="700">Reverse engineering</text>
-    <text x="94" y="195" fill="#aab6b2" font-size="12">Binaries · behavior · careful analysis</text>
-    <path d="M480 173l6 7-6 7" fill="none" stroke="#c8a2e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-
-    <rect x="75" y="216" width="438" height="58" rx="10" fill="#18242b" stroke="#30434a"/>
-    <circle cx="48" cy="245" r="13" fill="#29251e" stroke="#f4b860" stroke-width="2"/>
-    <text x="48" y="249" text-anchor="middle" fill="#f9d28f" font-family="ui-monospace, monospace" font-size="10" font-weight="700">03</text>
-    <text x="94" y="240" fill="#f3f0e8" font-size="16" font-weight="700">Network analysis</text>
-    <text x="94" y="260" fill="#aab6b2" font-size="12">Packets · protocols · traffic patterns</text>
-    <path d="M480 238l6 7-6 7" fill="none" stroke="#f4b860" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-
-    <rect x="75" y="281" width="438" height="58" rx="10" fill="#18242b" stroke="#30434a"/>
-    <circle cx="48" cy="310" r="13" fill="#222629" stroke="#a7c4df" stroke-width="2"/>
-    <text x="48" y="314" text-anchor="middle" fill="#cfe0ee" font-family="ui-monospace, monospace" font-size="10" font-weight="700">04</text>
-    <text x="94" y="305" fill="#f3f0e8" font-size="16" font-weight="700">CTF problem-solving</text>
-    <text x="94" y="325" fill="#aab6b2" font-size="12">Puzzles · collaboration · learning by doing</text>
-    <path d="M480 303l6 7-6 7" fill="none" stroke="#a7c4df" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <rect x="192" y="112" width="344" height="61" rx="11" fill="#141e26" stroke="#2a3a42"/>
+      <rect x="192" y="124" width="3" height="36" rx="1.5" fill="#65d8bf"/>
+      <rect x="197" y="113" width="337" height="59" rx="10" fill="#65d8bf" opacity=".025">
+        <animate attributeName="opacity" values=".025;.12;.025" dur="8s" begin="0s" repeatCount="indefinite"/>
+      </rect>
+      <text x="210" y="131" fill="#8bdccb" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" font-weight="700" letter-spacing="1.1">01  /  WEB</text>
+      <text x="210" y="151" fill="#f0f1eb" font-size="15" font-weight="700">Web exploitation</text>
+      <text x="210" y="166" fill="#a9b6b6" font-size="11">HTTP · input paths · authentication flows</text>
+      <path d="M510 135h14v13h-14zM510 139h14M514 143l2 2 4-4" fill="none" stroke="#65d8bf" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <rect x="192" y="178" width="344" height="61" rx="11" fill="#141e26" stroke="#2a3a42"/>
+      <rect x="192" y="190" width="3" height="36" rx="1.5" fill="#b7a6ff"/>
+      <rect x="197" y="179" width="337" height="59" rx="10" fill="#b7a6ff" opacity=".025">
+        <animate attributeName="opacity" values=".025;.12;.025" dur="8s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="210" y="197" fill="#c7bbff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" font-weight="700" letter-spacing="1.1">02  /  REVERSE</text>
+      <text x="210" y="217" fill="#f0f1eb" font-size="15" font-weight="700">Reverse engineering</text>
+      <text x="210" y="232" fill="#a9b6b6" font-size="11">Binaries · program behavior · logic</text>
+      <path d="M511 198h12v12h-12zM514 195v3M520 195v3M514 210v3M520 210v3M508 201h3M508 207h3M523 201h3M523 207h3" fill="none" stroke="#b7a6ff" stroke-width="1.3" stroke-linecap="round"/>
+    </g>
+    <g>
+      <rect x="192" y="244" width="344" height="61" rx="11" fill="#141e26" stroke="#2a3a42"/>
+      <rect x="192" y="256" width="3" height="36" rx="1.5" fill="#f2bc70"/>
+      <rect x="197" y="245" width="337" height="59" rx="10" fill="#f2bc70" opacity=".025">
+        <animate attributeName="opacity" values=".025;.12;.025" dur="8s" begin="4s" repeatCount="indefinite"/>
+      </rect>
+      <text x="210" y="263" fill="#f0ca90" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" font-weight="700" letter-spacing="1.1">03  /  NETWORKS</text>
+      <text x="210" y="283" fill="#f0f1eb" font-size="15" font-weight="700">Network analysis</text>
+      <text x="210" y="298" fill="#a9b6b6" font-size="11">Packets · protocols · traffic patterns</text>
+      <circle cx="512" cy="267" r="2.5" fill="none" stroke="#f2bc70" stroke-width="1.4"/>
+      <circle cx="523" cy="260" r="2.5" fill="none" stroke="#f2bc70" stroke-width="1.4"/>
+      <circle cx="523" cy="274" r="2.5" fill="none" stroke="#f2bc70" stroke-width="1.4"/>
+      <path d="M514 266l7-5M514 268l7 5" stroke="#f2bc70" stroke-width="1.2"/>
+    </g>
+    <g>
+      <rect x="192" y="310" width="344" height="61" rx="11" fill="#141e26" stroke="#2a3a42"/>
+      <rect x="192" y="322" width="3" height="36" rx="1.5" fill="#8fc5e6"/>
+      <rect x="197" y="311" width="337" height="59" rx="10" fill="#8fc5e6" opacity=".025">
+        <animate attributeName="opacity" values=".025;.12;.025" dur="8s" begin="6s" repeatCount="indefinite"/>
+      </rect>
+      <text x="210" y="329" fill="#a9d1e9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" font-weight="700" letter-spacing="1.1">04  /  CTFs</text>
+      <text x="210" y="349" fill="#f0f1eb" font-size="15" font-weight="700">CTF problem-solving</text>
+      <text x="210" y="364" fill="#a9b6b6" font-size="11">Puzzles · teamwork · write-ups</text>
+      <path d="M510 330h15v14h-15zM510 330l7.5 6 7.5-6M517.5 336v8" fill="none" stroke="#8fc5e6" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
   </g>
+
+  <path d="M24 392H536" stroke="#293941" stroke-width="1"/>
+  <text x="25" y="411" fill="#7f999b" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" letter-spacing=".7">AUTHORIZED LABS  /  CTFs  /  FIELD NOTES</text>
+  <text x="535" y="411" text-anchor="end" fill="#657b80" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">FOLLOW THE SIGNAL</text>
 </svg>
